@@ -1,1 +1,1 @@
-const CACHE='sword-survivor-v2.3';
+const CACHE='sword-survivor-v2.4';
