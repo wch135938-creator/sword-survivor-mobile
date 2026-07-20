@@ -1,10 +1,9 @@
 {
-  "name": "剑域幸存者·手机豪华版",
+  "name": "剑域幸存者·手机豪华版V2",
   "short_name": "剑域幸存者",
   "start_url": "./index.html",
-  "display": "fullscreen",
+  "display": "standalone",
   "orientation": "landscape",
   "background_color": "#090d18",
-  "theme_color": "#090d18",
-  "icons": []
+  "theme_color": "#090d18"
 }

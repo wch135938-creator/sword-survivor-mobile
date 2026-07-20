@@ -1,19 +1,7 @@
-
-const CACHE = "sword-survivor-v1";
-const FILES = [
-  "./",
-  "./index.html",
-  "./manifest.json"
-];
-
-self.addEventListener("install", event => {
-  event.waitUntil(
-    caches.open(CACHE).then(cache => cache.addAll(FILES))
-  );
+const CACHE_NAME="sword-survivor-v2";
+self.addEventListener("install",e=>{
+ e.waitUntil(caches.open(CACHE_NAME).then(c=>c.addAll(["./","./index.html","./manifest.json","./sw.js"])));
 });
-
-self.addEventListener("fetch", event => {
-  event.respondWith(
-    caches.match(event.request).then(r => r || fetch(event.request))
-  );
+self.addEventListener("fetch",e=>{
+ e.respondWith(caches.match(e.request).then(r=>r||fetch(e.request)));
 });
