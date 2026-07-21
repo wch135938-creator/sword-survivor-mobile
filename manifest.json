@@ -1,7 +1,7 @@
 {
-  "name": "剑域幸存者·手机豪华版 V2.7.1 fix2",
+  "name": "剑域幸存者·手机豪华版V2.7.3",
   "short_name": "剑域幸存者",
-  "start_url": "./index.html?v=2.7.1-fix2",
+  "start_url": "./index.html",
   "display": "standalone",
   "orientation": "landscape",
   "background_color": "#090d18",
