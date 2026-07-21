@@ -1,7 +1,10 @@
 {
-  "name": "剑域幸存者·手机豪华版V2.7.3",
+  "id": "./?v=2.7.4_fix",
+  "name": "剑域幸存者·手机豪华版 V2.7.4_fix",
   "short_name": "剑域幸存者",
-  "start_url": "./index.html",
+  "description": "离线修仙 Roguelite 手机小游戏",
+  "start_url": "./index.html?v=2.7.4_fix",
+  "scope": "./",
   "display": "standalone",
   "orientation": "landscape",
   "background_color": "#090d18",
