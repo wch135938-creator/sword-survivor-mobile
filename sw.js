@@ -1,10 +1,10 @@
-const VERSION = 'V2.7.4_fix2';
-const CACHE = 'sword-survivor-v2.7.4-fix2';
+const VERSION = 'V2.7.4_fix3';
+const CACHE = 'sword-survivor-v2.7.4-fix3';
 const ASSETS = [
   './',
-  './index.html?v=2.7.4_fix2',
-  './manifest.json?v=2.7.4_fix2',
-  './VERSION.txt?v=2.7.4_fix2'
+  './index.html?v=2.7.4_fix3',
+  './manifest.json?v=2.7.4_fix3',
+  './VERSION.txt?v=2.7.4_fix3'
 ];
 
 self.addEventListener('install', event => {
@@ -37,7 +37,7 @@ self.addEventListener('fetch', event => {
     } catch (error) {
       const cached = await caches.match(event.request);
       if (cached) return cached;
-      if (isNavigation) return caches.match('./index.html?v=2.7.4_fix2');
+      if (isNavigation) return caches.match('./index.html?v=2.7.4_fix3');
       throw error;
     }
   })());
