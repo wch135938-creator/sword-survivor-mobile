@@ -1,5 +1,1 @@
-剑域幸存者 手机豪华版 V2.7.1 fix2
-Boss间隔：45秒
-诛仙令：每个Boss阶段总计1~2个（含Boss掉落）
-移动：战斗区域任意位置相对拖动
-PWA：清理旧Service Worker与CacheStorage
+
